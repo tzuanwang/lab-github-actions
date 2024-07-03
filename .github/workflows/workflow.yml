@@ -55,7 +55,7 @@ jobs:
       # and then uncomment the following 4 lines during hands-on lab
       
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v3.1.4
-      #   with:
-      #     token: ${{ secrets.CODECOV_TOKEN }} 
+        uses: codecov/codecov-action@v4.0.1
+        with:
+            token: ${{ secrets.CODECOV_TOKEN }} 
   
